@@ -1,0 +1,33 @@
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.card_item {
+  padding: 10px;
+  box-sizing: border-box;
+}
+button {
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+}
+.button-primary {
+  background-color: #3c7fff;
+  color: white;
+}
+.button-secondary {
+  border: 1px solid #3c7fff;
+  color: #3c7fff;
+  background-color: white;
+}
+.m-auto {
+  display: flex;
+  justify-content: center;
+}
